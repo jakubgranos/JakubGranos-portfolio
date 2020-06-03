@@ -1,13 +1,16 @@
 {% set navItems = [
-  { href: '/index.html', label: 'Homepage' },
-  { href: '/contact.html', label: 'Contact Page' }
+  { href: '/index.html', label: 'home', icon: 'fas fa-home' },
+  { href: '/about.html', label: 'about', icon: 'fas fa-info-circle' },
+  { href: '/works.html', label: 'works', icon: 'fas fa-laptop-code' },
+  { href: '/gallery.html', label: 'gallery', icon: 'fas fa-images' },
+  { href: '/contact.html', label: 'contact', icon: 'fas fa-comment' }      
 ] %}
 
-<nav>
-  <ul>
+<nav class="navigation">
+  <ul class="navigation-list">
   	{% for item in navItems %}
-    	<li>
-        <a href="{{ item.href }}">{{ item.label }}</a>
+      <li>
+        <a href="{{ item.href }}"><i class="{{item.icon}}"></i><span class="navigation-text">{{item.label}}</span></a>
       </li>
     {% endfor %}
   </ul>

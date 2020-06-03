@@ -1,0 +1,44 @@
+@keyframes image-out {        
+  from {
+    transform: translateX(600px);
+  }
+  to {
+   transform: translateX(0px);
+  }      
+}
+
+@keyframes text-out {        
+  from {
+    transform: translateX(-600px);
+  }
+  to {
+    transform: translateX(0px);
+  }      
+}
+
+@keyframes clockspin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(350deg);
+  }
+}
+
+@keyframes anticlockspin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-350deg);
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

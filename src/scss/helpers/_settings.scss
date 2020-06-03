@@ -1,8 +1,16 @@
 @import 'include-media/dist/include-media';
 
-//fonts
 
 // colors (names by: http://chir.ag/projects/name-that-color)
+$color-white: white;
+$color-black: #000000;
+$color-shark: #252628;
+$color-dust-gray: #949494;
+$color-dove-gray: #676565;
+$color-mojo: #ca4848;
+$color-cod-gray: #0c0c0c;
+$color-emperor: #525252;
+$color-mine-shaft: #1F1F1F;
 
 //breakpoints
 $breakpoints: (
@@ -10,4 +18,5 @@ $breakpoints: (
   'md': 768px,
   'lg': 1024px,
   'xl': 1200px,
+  'xxl': 1350px,
 );

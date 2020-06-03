@@ -1,5 +1,3 @@
 <header class="page-header">
-  <div class="container">
-    {% include 'partials/global/header/header-nav.nj' %}
-  </div>
+  {% include 'partials/global/header/header-nav.nj' %}
 </header>

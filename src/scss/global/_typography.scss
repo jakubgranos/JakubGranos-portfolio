@@ -1,5 +1,11 @@
 // Typography styles - headings, p, a, ul, ol, tables etc.
 
+body {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
 img {
   max-width: 100%;
 }
@@ -14,4 +20,39 @@ ul,
 ol,
 table {
   margin: 0 0 15px;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: $font-heebo;
+  color: $color-white;
+
+  @include media('<lg') {
+    font-size: 40px;
+  }
+
+  @include media('<md') {
+    font-size: 30px;
+  }
+}
+
+p {
+  font-family:$font-heebo;
+  color: $color-white;
+}
+
+button {
+  border: none;
+  background: none;
+  font-family: $font-heebo;
+  outline: unset;
+}
+
+.hvr-wobble-top {
+  cursor: context-menu;
 }
