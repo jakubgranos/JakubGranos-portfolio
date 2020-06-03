@@ -1,6 +1,5 @@
 <header class="page-header">
-    <div class="container">
-        {% include 'partials/global/header/header-nav.nj' %}
-        <hr>
-    </div>
+  <div class="container">
+    {% include 'partials/global/header/header-nav.nj' %}
+  </div>
 </header>

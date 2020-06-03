@@ -1,19 +1,13 @@
 @import 'include-media/dist/include-media';
 
 //fonts
-$font-roboto: 'Roboto', sans-serif;
 
 // colors (names by: http://chir.ag/projects/name-that-color)
-$color-mine-shaft: #302f2f;
-$color-amaranth: #ee3159;
-$color-lochmara: #0077bd;
-$color-deep-cove: #062340;
-$color-athens-gray: #e7eaee;
 
 //breakpoints
 $breakpoints: (
-    'sm': 480px,
-    'md': 768px,
-    'lg': 1024px,
-    'xl': 1200px,
+  'sm': 480px,
+  'md': 768px,
+  'lg': 1024px,
+  'xl': 1200px,
 );

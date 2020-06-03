@@ -1,8 +1,7 @@
 @mixin reset-button($background: transparent) {
-    padding: 0;
-
-    border: none;
-    border-radius: 0;
-    background-color: $background;
-    cursor: pointer;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background-color: $background;
+  cursor: pointer;
 }
