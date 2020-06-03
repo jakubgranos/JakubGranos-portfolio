@@ -1,0 +1,15 @@
+{% extends "layouts/page.nj" %}
+
+{% set title = 'Win | Homepage' %}
+
+{% block content %}
+    <div class="container">
+        {% include "partials/page/homepage/hero.nj" %}
+        <h1>Homepage</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere atque impedit optio nisi praesentium aspernatur doloremque sunt asperiores repellendus culpa porro numquam earum odit, ipsa vitae libero distinctio. Iusto, cupiditate.</p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat amet perspiciatis iusto deleniti ullam. Corrupti officia odit placeat amet at non voluptate, eligendi consequatur ea nulla pariatur quasi sunt!</p>
+
+        <p>When implemented, the new rules should result in a change in the Dutch international tax ruling practice. The State Secretary of Finance aims to publish and implement the rules and examples on or before July 1, 2019.</p>
+    </div>
+{% endblock %}

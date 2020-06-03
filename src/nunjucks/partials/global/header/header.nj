@@ -1,0 +1,6 @@
+<header class="page-header">
+    <div class="container">
+        {% include 'partials/global/header/header-nav.nj' %}
+        <hr>
+    </div>
+</header>
