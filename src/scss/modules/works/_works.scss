@@ -1,0 +1,14 @@
+.works {
+  $works: &;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: scroll;
+  height: 100vh;
+  font-family: 'Heebo', sans-serif;
+
+  @include media('<lg') {
+    height: 90vh;
+    padding: 10px;
+  }
+}

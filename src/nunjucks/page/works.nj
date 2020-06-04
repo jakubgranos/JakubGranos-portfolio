@@ -1,0 +1,7 @@
+{% extends "layouts/page.nj" %}
+
+{% set title = 'works' %}
+
+{% block content %}
+  {% include 'partials/page/works/works.nj' %}
+{% endblock %}

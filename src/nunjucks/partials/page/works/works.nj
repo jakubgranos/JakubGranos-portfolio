@@ -1,0 +1,6 @@
+<section class="content">
+  <div class="works" data-attribute="heading-animate-text">
+    {% include 'partials/page/works/works-box.nj' %}
+    <div class="popup" data-attribute="popup">Scroll down <i class="fas fa-sort-down"></i></div>
+  </div>
+</section>

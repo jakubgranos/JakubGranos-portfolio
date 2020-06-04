@@ -22,10 +22,10 @@
     &::after, 
     &::before {
       content: '';
-      width: 15px;
+      width: 8px;
       display: block;
       transform: rotate(50deg);
-      height: 7px;
+      height: 19px;
       background: $color-mojo;
 
       @include media('<md') {
