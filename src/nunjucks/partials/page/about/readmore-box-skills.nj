@@ -28,7 +28,7 @@
   </h2>
 
   <ul>
-	  {% for item in navItems %}
+    {% for item in navItems %}
       <li>{{ item.label }}</li>
     {% endfor %}
   </ul>
