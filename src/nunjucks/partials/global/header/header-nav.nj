@@ -9,7 +9,7 @@
 <nav class="navigation">
   <ul class="navigation-list">
   	{% for item in navItems %}
-      <li>
+      <li class="{% if title == item.label %} navigation-active {% endif %} ">
         <a href="{{ item.href }}"><i class="{{item.icon}}"></i><span class="navigation-text">{{item.label}}</span></a>
       </li>
     {% endfor %}

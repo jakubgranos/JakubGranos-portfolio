@@ -1,7 +1,7 @@
 {% extends "layouts/page.nj" %}
 
-{% set title = 'Home' %}
+{% set title = 'home' %}
 
 {% block content %}
-	<h1>home</h1>
+  {% include 'partials/page/home/home.nj' %}
 {% endblock %}

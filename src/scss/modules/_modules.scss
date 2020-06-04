@@ -1,3 +1,18 @@
 // Import all modules here
-
+//nav
 @import 'navigation/navigation';
+
+//content
+@import 'content/content';
+@import 'content/content-flex';
+@import 'content/content-text';
+
+//tags
+@import 'tags/tags';
+
+//loader
+@import 'loader/loader';
+@import 'loader/loader-text-spin';
+
+//canvas background
+@import 'particles/particles';

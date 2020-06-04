@@ -1,0 +1,14 @@
+<div class="loader" data-preload="preload">
+  <div class="loader-text">
+    <h2>almost there . . .</h2>
+    <div class="loader-text-spin">
+      <span class="loader-text-spin-circle"></span>
+      <span class="loader-text-spin-moving" data-attribute="loader-text-spin-moving">Initialization assets..</span>
+    </div>
+  </div>
+  <button class="loader-button">
+    <span class="loader-button-color" data-attribute="loader-button-color"></span>
+    <span class="loader-button-number" data-attribute="loader-button-number"></span>
+  </button>
+</div>
+

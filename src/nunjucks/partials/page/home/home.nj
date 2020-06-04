@@ -1,0 +1,22 @@
+<section class="content home">
+  <span class="tags tags-top">&nbsp;&nbsp;&nbsp;&lt;body&gt;</span>
+  <div class="content-text" data-attribute="heading-animate-text">
+  	<h1>
+     	<span class="hvr-wobble-top">Hi,</span></br>
+      <span class="hvr-wobble-top">i'm</span>
+      <span class="hvr-wobble-top"><a href="https://github.com/jakubgranos" target="_blank">Jakub</a></span>
+      <span class="hvr-wobble-top content-text-red"><a href="https://github.com/jakubgranos" target="_blank">Granos</a></span>
+    </h1>
+    <p>
+     <span class="hvr-wobble-top">Front End Developer /</span>
+     <span class="hvr-wobble-top">Wordpress /</span>
+      <span class="hvr-wobble-top">Freelancer</span>
+    </p>
+    <a href="#" class="content-text-button hvr-wobble-top">Hire</a>
+  </div>
+  <img src="{{ imageSrc('prof-layer-1.png') }}" alt="jakub Granos" class="content-img content-img-layer-1" data-attribute="content-img-layer-1">
+  <img src="{{ imageSrc('prof-layer-2.png') }}" alt="jakub Granos" class="content-img content-img-layer-2" data-attribute="content-img-layer-2">
+  <img src="{{ imageSrc('prof.png') }}" alt="jakub Granos" class="content-img content-img-layer" data-attribute="content-img">
+  <span class="tags tags-bottom-body">&nbsp;&nbsp;&nbsp;&lt;/body&gt;</span>
+  <span class="tags tags-bottom-html">&nbsp;&nbsp;&nbsp;&lt;/html&gt;</span>
+</section>
