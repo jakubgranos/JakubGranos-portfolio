@@ -1,0 +1,42 @@
+.works-box-text {
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  left: 16px;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.2);
+  transition: 0.4s ease;
+  opacity: 0;
+
+  & a {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    opacity: 0;
+    margin: 0 10px 0 0;
+    border-radius: 7px;
+    transform: translateX(500px);
+    background: unset;
+    transition: 0.4s ease;
+  }
+
+  & p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: $color-white;
+    color: #0c0c0c;
+    padding: 5px 10px 5px 5px;
+    border-radius: 0px 200px 10px 10px;
+    border: 0px solid $color-black;
+    transform: translateY(500px);
+
+    @include media('<md') {
+      transform: unset;
+      opacity: 0;
+    }
+  }
+}
