@@ -13,7 +13,8 @@ img,
 ul,
 ol,
 table {
-  margin: 0 0 15px;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -32,6 +33,20 @@ h1 {
 
   @include media('<md') {
     font-size: 30px;
+  }
+}
+
+h2 {
+  font-size: 40px;
+  font-family: $font-heebo;
+  color: $color-white;
+
+  @include media('<lg') {
+    font-size: 35px;
+  }
+
+  @include media('<md') {
+    font-size: 25px;
   }
 }
 

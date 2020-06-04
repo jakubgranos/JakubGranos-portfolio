@@ -1,0 +1,23 @@
+<div class="readmore readmore-disable" data-toggle="readmore-disable">
+  <button class="readmore-button about-text-button"><p data-attribute="readmore-button">close X</p></button>
+  <div class="readmore-box">
+    <div class="readmore-box-text">
+      <h2>
+        <span class="hvr-wobble-top">Skills</span>
+        <span class="hvr-wobble-top">&</span>
+        <span class="hvr-wobble-top content-text-red">Experience</span>
+      </h2>
+      <p>The main area of my experience is front end development - HTML, CSS, JS.
+        I can also work with CMS ( PHP, WordPress & ACF ) with give me ability to create more advanced projects. 
+        I learned everything at home, learning from mistakes and creating new projects. I would like my passion to become my job because it gives me a lot of fun and 
+        I would like to continue learning and create new projects! </br>
+        Visit me on <a href="https://github.com/jakubgranos" target="_blank" class="content-text-red">Github</a> or <a href="https://www.facebook.com/jakub.granos" target="_blank" class="content-text-red">Facebook</a>
+      </p>
+      <h2>Carier</h2>
+      <ul>
+        <li><span class="content-text-red">2018</span> - Summer internship in <a href="https://www.google.com/maps/place/Uniwers.COM+Partner+Comarch+Oddzia%C5%82+Wa%C5%82brzych/@50.8266285,16.2724347,17z/data=!3m1!4b1!4m5!3m4!1s0x470e5450043feadb:0xb9b6ac9cf430b940!8m2!3d50.8266285!4d16.2746234" class="content-text-red">Uniwers.com</a></li>
+      </ul>
+    </div>
+      {% include 'partials/page/readmore/readmore-box-skills.nj' %}
+  </div>
+</div>
