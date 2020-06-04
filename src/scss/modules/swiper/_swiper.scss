@@ -1,0 +1,33 @@
+.swiper {
+  &-container {
+    max-width: 850px;
+    display: flex;
+    height: 600px;
+    align-content: center;
+  }
+  
+  &-slide {
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+
+  &-pagination {
+    bottom: 0px;
+  
+    &-bullet {
+      width: 200px;
+      height: 100px;
+    }
+
+    @include media('<md') {
+      display: none;
+    }
+  }
+
+  &-button-prev,
+  &-button-next {
+    border-radius: 100%;
+    color: $color-mojo
+  }
+}
