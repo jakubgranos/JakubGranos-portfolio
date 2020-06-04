@@ -1,0 +1,52 @@
+.content {
+  position: relative;
+  overflow: hidden;
+  
+  &-text-button {
+    margin: 20px 0 0 0;
+    width: 150px;
+    background: $color-mojo;
+    padding: 10px;
+    border-radius: 30px;
+    color: $color-white;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-family: $font-heebo;
+    text-align: center;
+
+    @include media('<lg') {
+      width: 120px;
+      font-size: 15px;
+      margin: 0 auto;
+    }
+      
+    &:hover {
+      color: $color-mojo;
+      background: $color-white;
+    }
+  }
+
+
+  &-img {
+    position: absolute;
+    bottom: -300px;
+    right: 0;
+    width: 500px; 
+    opacity: 0.8;
+    z-index: 1;
+
+    @include media('<lg') {
+      width: 350px;
+    }
+
+    @include media('<md') {
+      width: 250px;
+    }
+
+    &-layer-1 {
+      opacity: 0.4;
+    }
+  }
+}

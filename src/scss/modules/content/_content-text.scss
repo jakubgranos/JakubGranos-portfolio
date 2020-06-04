@@ -1,0 +1,73 @@
+.content-text {
+  z-index: 2;
+  position: relative;
+  height: 100vh;
+  width: auto;
+  margin: 0 0 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include media('<lg') {
+    width: 100%;
+    margin: unset;
+    text-align: center;
+  }
+  
+  & p {
+    font-size: 20px;
+    color: $color-emperor;
+
+    @include media('<lg') {
+      margin: 0 0 20px 0;
+      font-size: 20px;
+    }
+
+    a {
+      color: $color-mojo;
+      text-decoration: underline;
+    }
+  }
+
+  & h1 {
+    position: relative;
+    max-width: 450px;
+
+    @include media('<lg') {
+      max-width: 100%;
+    }
+
+    &::before,
+    &::after {
+      display: block;
+      color: $color-emperor;
+      font-family: $font-bad-script;
+      font-size: 20px;
+      position: absolute;
+      
+      @include media('<lg') {
+        display: none;
+      }
+    }
+
+    &:before {
+      content: '<h1>';
+      top: -30px;
+      left: -25px;
+    }
+
+    &::after {
+      content: '</h1>';
+      bottom: 15px;
+      right: 0;
+
+      @include media('<lg') {
+        bottom: 15px;
+      }
+    }
+  }
+  
+  &-red {
+    color: $color-mojo;
+  }
+}

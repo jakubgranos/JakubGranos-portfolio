@@ -1,0 +1,26 @@
+.tags {
+  position: absolute;
+  color: $color-emperor;
+  font-family: $font-bad-script;
+  font-size: 20px;
+  left: 20px;
+  z-index: 3;
+
+  @include media('<lg') {
+    display: none;
+  }
+
+  &-top {
+    top: 60px;
+  }
+
+  &-bottom-body {
+    bottom: 20px;
+    left: 0px;
+  }
+
+  &-bottom-html {
+    bottom: 40px;
+    margin: 0 0 20px 0;
+  }
+}

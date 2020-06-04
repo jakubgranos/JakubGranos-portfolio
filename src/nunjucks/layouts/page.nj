@@ -10,9 +10,13 @@
 </head>
 
 <body>
+  <div id="particles-background" class="particles"></div>
+  <div id="particles-foreground" class="particles"></div>
+
   {% include 'partials/global/header/header.nj' %}
 
   <main class="page-main">
+    {% include 'partials/page/preload/preload.nj' %}
     {% block content %} {% endblock %}
   </main>
 
