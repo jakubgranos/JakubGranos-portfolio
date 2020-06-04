@@ -1,0 +1,12 @@
+{% extends "layouts/page.nj" %}
+
+{% set title = 'gallery' %}
+
+{% block content %}
+  <section class="content gallery" data-attribute="heading-animate-text">
+    <div class="content-text gallery-text">
+      <h1><span class="hvr-wobble-top">Gallery</span></h1>
+    </div>
+    {% include 'partials/page/gallery/swiper-container.nj' %}
+  </section>
+{% endblock %}

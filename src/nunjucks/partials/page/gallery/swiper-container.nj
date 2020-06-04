@@ -1,0 +1,16 @@
+{% set galleryItems = [
+  { src: 'gallery-1.PNG', alt: 'prize' },
+  { src: 'gallery-2.jpg', alt: 'Our team' },
+  { src: 'gallery-3.PNG', alt: 'Leave a like' }
+] %}
+
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    {% for item in galleryItems %}
+      <div class="swiper-slide"><img class="gallery-img" src="{{ imageSrc( item.src ) }}" alt="{{ item.alt }}"></div>
+    {% endfor %}
+  </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
