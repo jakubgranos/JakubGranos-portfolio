@@ -96,7 +96,7 @@
   <figure class="works-box">
     <img src="{{ imageSrc( item.src ) }}" alt="{{ item.alt }}">
     <div class="works-box-text">
-      <a href="{{ item.firtHref }}" target="_blank" >Code <i class="fab fa-github"></i></a>
+      <a href="{{ item.firstHref }}" target="_blank" >Code <i class="fab fa-github"></i></a>
       <a href="{{ item.secondHref }}" target="_blank" >Live <i class="fas fa-globe-europe"></i></a>
       <p>{{ item.stackText }}</p>
     </div>
