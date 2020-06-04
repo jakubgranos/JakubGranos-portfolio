@@ -1,0 +1,16 @@
+<div class="timeline">
+  <div class="timeline-item" data-date="2020">
+    <h2 class="hvr-wobble-top">End education</h2>
+    <p>Finaly, end my education in Technical high school ,,Energetyk'' in Wałbrzych. Energetyk is the best informatic school in my City!</p>
+  </div>
+  <div class="timeline-item" data-date="2019">
+    <h2 class="hvr-wobble-top">Learning  . . .</h2>
+    <p>This year was fruitful for me because, I was learning many useful things, I did my first major project in Vue.js for myself and my friends
+    and create first project for real client!</p>
+  </div>
+  <div class="timeline-item" data-date="2018">
+    <h2 class="hvr-wobble-top">2nd place in II Wałbrzych Software Hackathon</h2>
+    <p>Me and my friends decided to take part in an event organized by the city, consisting in creating an application for the city within 48 hours.
+    The school head decided to hang the prize in the main hall of the school! So you can see it at any time.</p>
+  </div>          
+</div>

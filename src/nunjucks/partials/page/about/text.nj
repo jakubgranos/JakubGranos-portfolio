@@ -1,0 +1,20 @@
+<h1>
+  <span class="hvr-wobble-top">About</span>
+  <span class="hvr-wobble-top content-text-red">me</span>
+</h1>
+<p>Hi, I'm Jakub <span class="content-text-red">Granos</span> 20 years old, future front-end programmer, right after school, ready to work. 
+  I have been learning programming for 4 years. Two years ago I realized that this is what I want to do in my life. 
+  I'm a person who learns quickly, likes to take on new challenges and transfer the acquired knowledge.
+  Fan of music, outdoor activities, TV series, computer games and cooking!</br>
+  Visit me on <a href="https://github.com/jakubgranos" target="_blank" class="content-text-red">Github</a> or <a href="https://www.facebook.com/jakub.granos" target="_blank" class="content-text-red">Facebook</a>
+</p>
+<p>Together with the team we took second place at Wałbrzych  II Software Hackathon 2018!</p>
+<h2>
+  <span class="hvr-wobble-top">Skills</span>
+  <span class="hvr-wobble-top">&</span>
+  <span class="hvr-wobble-top content-text-red">Experience</span>
+</h2>
+<p>The main area of my experience is front end development - HTML, CSS, JS( Vue.js ). </br>
+  I can also work with CMS (PHP, WordPress & ACF) with give me ability to create more advanced project...<button class="about-text-button" data-attribute="readmore-button">READ MORE</button>
+</p>
+

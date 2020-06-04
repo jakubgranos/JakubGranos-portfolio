@@ -1,0 +1,67 @@
+.readmore-box {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-around;
+  height: 95%;
+
+  @include media('<lg') {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  &-text {
+    width: 45%;
+
+    @include media('<lg') {
+      width: 100%;
+      margin: 0 0 50px 0;
+    }
+
+    & p {
+      color: $color-emperor;
+      padding: 10px;
+
+      @include media('<lg') {
+        padding: 10px;
+      }
+    }
+
+    & ul {
+      color: $color-emperor;
+      margin: 5px 0 0 0;
+    }
+  }
+
+  &-skills {
+    border-left: 2px solid $color-white;
+    width: 30%;
+    padding: 0 0 0 10px;
+
+    @include media('<lg') {
+      width: 100%;
+      border-left: none;
+      height: 500px;
+      padding: 0px;
+    }
+
+    & h2 {
+      padding: 0 0 0 5px;
+      margin: 0 0 20px 0;
+      font-size: 25px;
+    }
+
+    & ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      & li {
+        list-style-type: none;
+        margin: 5px;
+        background: $color-cod-gray;
+        padding: 10px;
+      }
+    }
+  }
+}
