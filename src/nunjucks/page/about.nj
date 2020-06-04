@@ -10,6 +10,7 @@
       </div>
       <div class="readmore-block" data-toggle="readmore-block-active"></div>
       {% include 'partials/page/readmore/readmore.nj' %}
+      {% include 'partials/page/timeline/timeline.nj' %}
     </div>
     <div class="popup" data-attribute="popup">Click read more to check all information <i class="fas fa-info-circle"></i></div>
   </section>
