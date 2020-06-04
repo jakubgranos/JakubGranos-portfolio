@@ -15,22 +15,18 @@
     position: relative;
 
     @include media('<md') {
-      width: 15px;
-      height: 15px;
+      width: 19px;
+      height: 19px;
     }
 
     &::after, 
     &::before {
       content: '';
-      width: 8px;
+      width: 4px;
       display: block;
       transform: rotate(50deg);
       height: 19px;
       background: $color-mojo;
-
-      @include media('<md') {
-        height: 5px;
-      }
     }
 
     &::before {
@@ -39,7 +35,7 @@
       right: 0;
 
       @include media('<md') {
-        bottom: -2px;
+        bottom: -1px;
         right: -3px;
       }
     }
@@ -47,8 +43,7 @@
     &:after {
       @include media('<md') {
         position: absolute;
-        top: -3px;
-        left: -3px;
+        top: -2.9px;
       }
     }
   }

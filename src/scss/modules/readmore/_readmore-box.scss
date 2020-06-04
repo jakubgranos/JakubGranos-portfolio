@@ -21,6 +21,7 @@
     & p {
       color: $color-emperor;
       padding: 10px;
+      text-align: left;
 
       @include media('<lg') {
         padding: 10px;

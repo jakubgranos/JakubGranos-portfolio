@@ -2,6 +2,10 @@
   overflow: hidden;
   overflow-y: auto;
   
+  @include media('<lg') {
+    max-height: 400px;
+  }
+
   &-text {
     margin: 0 0 0 60px;
     z-index: unset;
