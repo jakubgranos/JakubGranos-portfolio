@@ -1,0 +1,53 @@
+.about {
+  overflow: hidden;
+  overflow-y: auto;
+  
+  &-text {
+    margin: 0 0 0 60px;
+    z-index: unset;
+
+    @include media('<lg') {
+      width: 100%;
+      text-align: center;
+      margin: 60px 0 0 0;
+      padding: 20px;
+    }
+
+    @include media('<xl') {
+      width: 100%;
+    }
+
+    & h1 {
+      &::after,
+      &::before {
+        display: none;
+      }
+
+      @include media('<lg') {
+        width: 100%;
+      }
+    }
+
+    & p {
+      font-size: 17px;
+      margin: 0 0 15px 0;
+      max-width: 775px;
+      color: $color-emperor;
+
+      @include media('<lg') {
+        max-width: 100%;
+        padding: 20px;
+      }
+    }
+
+    &-button {
+      color: $color-mojo;
+      font-size: 22px;
+      cursor: pointer;
+    }
+  }
+
+  &-disable {
+    overflow-y: hidden;
+  }
+}

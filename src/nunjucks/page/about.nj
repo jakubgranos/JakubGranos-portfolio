@@ -1,0 +1,15 @@
+{% extends "layouts/page.nj" %}
+
+{% set title = 'about' %}
+
+{% block content %}
+  <section class="content about" data-toggle="about-disable">
+    <div class="content-flex">
+      <div class="about-text" data-attribute="heading-animate-text">
+        {% include 'partials/page/about/text.nj' %}
+      </div>
+      <div class="readmore-block" data-toggle="readmore-block-active"></div>
+    </div>
+    <div class="popup" data-attribute="popup">Click read more to check all information <i class="fas fa-info-circle"></i></div>
+  </section>
+{% endblock %}
