@@ -1,0 +1,35 @@
+{% set navItems = [
+  {label: 'HTML' },
+  {label: 'CSS' },
+  {label: 'SCSS' },
+  {label: 'JavaScript' },
+  {label: 'Vue.js' },   
+  {label: 'Jquery' },   
+  {label: 'Bootstrap' },
+  {label: 'WordPress' },
+  {label: 'PHP' },
+  {label: 'ACF' },
+  {label: 'Nunjucks' },
+  {label: 'GIT' },
+  {label: 'Node' },
+  {label: 'Firebase' },
+  {label: 'Gulp' },
+  {label: 'NPM' },
+  {label: 'Avocode' },
+  {label: 'Photoshop' },
+  {label: 'Adobe XD' }
+] %}
+
+<div class="readmore-box-skills">
+  <h2>
+    <span class="hvr-wobble-top">Launguages</span>
+    <span class="hvr-wobble-top">&</span>
+    <span class="hvr-wobble-top content-text-red">Tools</span>
+  </h2>
+
+  <ul>
+    {% for item in navItems %}
+      <li>{{ item.label }}</li>
+    {% endfor %}
+  </ul>
+</div>
