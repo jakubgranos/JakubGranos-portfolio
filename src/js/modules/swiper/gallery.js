@@ -1,4 +1,4 @@
-const menu = ['{{work-12.PNG}}', 'img/gallery-2.jpg', 'img/gallery-3.PNG']
+const menu = ['assets/images/gallery-1.PNG', 'assets/images/gallery-2.jpg', 'assets/images/gallery-3.PNG']
 const mySwiper = new Swiper ('.swiper-container', {
   allowTouchMove: false,
   pagination: {
