@@ -10,6 +10,10 @@
   color: $color-white;
   max-height: 450px;
 
+  @include media('<md') {
+    max-height: 300px;
+  }
+
   &-disable {
     display: none;
   }
