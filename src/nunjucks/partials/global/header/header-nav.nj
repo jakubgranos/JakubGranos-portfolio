@@ -1,9 +1,9 @@
 {% set navItems = [
-  { href: '/index.html', label: 'home', icon: 'fas fa-home' },
-  { href: '/about.html', label: 'about', icon: 'fas fa-info-circle' },
-  { href: '/works.html', label: 'works', icon: 'fas fa-code' },
-  { href: '/gallery.html', label: 'gallery', icon: 'fas fa-images' },
-  { href: '/contact.html', label: 'contact', icon: 'fas fa-comment' }      
+  { href: 'index.html', label: 'home', icon: 'fas fa-home' },
+  { href: 'about.html', label: 'about', icon: 'fas fa-info-circle' },
+  { href: 'works.html', label: 'works', icon: 'fas fa-code' },
+  { href: 'gallery.html', label: 'gallery', icon: 'fas fa-images' },
+  { href: 'contact.html', label: 'contact', icon: 'fas fa-comment' }      
 ] %}
 
 <nav class="navigation">
