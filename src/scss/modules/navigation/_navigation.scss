@@ -2,6 +2,7 @@
   background: $color-cod-gray;
   width: 80px;
   height: 100vh;
+  position: relative;
   z-index: 9;
   
   @include media('<lg') {
