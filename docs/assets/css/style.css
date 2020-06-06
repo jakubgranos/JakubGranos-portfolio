@@ -66,7 +66,7 @@ h1 { font-size: 50px; font-family: "Heebo", sans-serif; color: white; }
 
 @media (max-width: 1023px) { h1 { font-size: 40px; } }
 
-@media (max-width: 767px) { h1 { font-size: 30px; } }
+@media (max-width: 767px) { h1 { font-size: 25px; } }
 
 h2 { font-size: 40px; font-family: "Heebo", sans-serif; color: white; }
 
@@ -198,8 +198,6 @@ button { border: none; background: none; font-family: "Heebo", sans-serif; outli
 
 .about { overflow: hidden; overflow-y: auto; }
 
-@media (max-width: 1023px) { .about { max-height: 400px; } }
-
 .about-text { margin: 0 0 0 60px; z-index: unset; }
 
 @media (max-width: 1023px) { .about-text { width: 100%; text-align: center; margin: 60px 0 0 0; padding: 20px; } }
@@ -258,7 +256,7 @@ button { border: none; background: none; font-family: "Heebo", sans-serif; outli
 
 .timeline { width: 28%; margin: 0 auto; padding: 0px 0 20px 10px; border-left: 5px solid #ca4848; }
 
-@media (max-width: 479px) { .timeline { width: 100%; } }
+@media (max-width: 1023px) { .timeline { width: 100%; padding: 0px 0 60px 10px; } }
 
 .timeline-item { border-bottom: 1px dotted #0c0c0c; padding: 20px; position: relative; min-width: 290px; }
 
@@ -280,17 +278,13 @@ button { border: none; background: none; font-family: "Heebo", sans-serif; outli
 
 @media (max-width: 479px) { .timeline-item p { margin: 15px 0 0 0; } }
 
-.popup { position: absolute; top: 10px; right: 10px; color: white; background: #0c0c0c; padding: 10px; min-width: 250px; text-align: center; transition: 1s ease; font-family: 'Heebo', sans-serif; }
-
-.popup-disable { transform: translateX(400px); }
-
 .works { display: flex; flex-direction: row; flex-wrap: wrap; overflow: scroll; height: 100vh; font-family: 'Heebo', sans-serif; }
 
 @media (max-width: 1023px) { .works { height: 90vh; padding: 10px; } }
 
 .works-box { position: relative; padding: 0px; margin: 0px; width: calc( 100% / 3); height: auto; overflow: hidden; }
 
-@media (max-width: 1023px) { .works-box { width: calc( 100% / 2); height: 290px; } }
+@media (max-width: 1023px) { .works-box { width: calc( 100% / 2); } }
 
 @media (max-width: 767px) { .works-box { width: 100%; } }
 
@@ -314,13 +308,11 @@ button { border: none; background: none; font-family: "Heebo", sans-serif; outli
 
 @media (max-width: 767px) { .works-box-text p { transform: unset; opacity: 0; } }
 
-.gallery { overflow: hidden; overflow-y: auto; max-height: 100%; }
+.gallery { overflow: hidden; overflow-y: auto; max-height: 100%; z-index: 0; }
 
 .gallery-text { height: auto; margin: 0 auto; text-align: center; }
 
-.gallery-text h1 { font-size: 60px; width: 100%; padding: 50px 0 0 0; margin: 0 auto; }
-
-@media (max-width: 1023px) { .gallery-text h1 { padding: 70px 0 0 0; } }
+.gallery-text h1 { font-size: 60px; width: 100%; padding: 50px 0 40px 0; margin: 0 auto; }
 
 .gallery-text h1::after, .gallery-text h1::before { display: none; }
 
@@ -329,6 +321,8 @@ button { border: none; background: none; font-family: "Heebo", sans-serif; outli
 .gallery-thumb { cursor: pointer; border: 2px solid white; border-radius: 5px; }
 
 .swiper-container { max-width: 850px; display: flex; height: 600px; align-content: center; }
+
+@media (max-width: 1023px) { .swiper-container { height: auto; } }
 
 .swiper-slide { display: flex; align-content: center; align-items: center; }
 

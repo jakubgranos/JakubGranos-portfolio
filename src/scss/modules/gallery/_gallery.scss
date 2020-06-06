@@ -2,6 +2,7 @@
   overflow: hidden;
   overflow-y: auto;
   max-height: 100%;
+  z-index: 0;
   
   &-text {
     height: auto;
@@ -11,12 +12,8 @@
     & h1 {
       font-size: 60px;
       width: 100%;
-      padding: 50px 0 0 0;
+      padding: 50px 0 40px 0;
       margin: 0 auto;
-
-      @include media('<lg') {
-        padding: 70px 0 0 0;
-      }
 
       &::after,
       &::before {
