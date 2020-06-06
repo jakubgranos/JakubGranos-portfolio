@@ -9,7 +9,7 @@
   {% include 'partials/global/html-head.nj' %}
 </head>
 
-<body>
+<body class="page-scroll">
   <div id="particles-background" class="particles"></div>
   <div id="particles-foreground" class="particles"></div>
 

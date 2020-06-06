@@ -9,7 +9,6 @@
   
   @include media('<lg') {
     width: calc( 100% / 2 );
-    height: 290px;
   }
 
   @include media('<md') {
