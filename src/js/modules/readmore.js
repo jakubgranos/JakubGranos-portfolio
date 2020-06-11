@@ -13,5 +13,4 @@ for( let i = 0; i < buttons.length; i++ ) {
     aboutDisable.classList.toggle('about-disable');
     aboutDisable.scroll(0,0);
   }
-  console.log(AllButtons)
 }

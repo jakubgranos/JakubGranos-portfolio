@@ -2,92 +2,92 @@
   {
     src: 'work-1.PNG',
     alt: 'recipes',
-    firstHref: 'https://github.com/jakubgranos/recipes',
-    secondHref: 'https://recipes-d7c43.web.app/',
+    CodeHref: 'https://github.com/jakubgranos/recipes',
+    LiveHref: 'https://recipes-d7c43.web.app/',
     stackText: 'Vue.js + Firebase'
   },
   {
     src: 'work-2.PNG',
     alt: 'portfolio',
-    firstHref: 'https://github.com/jakubgranos/JG-portfolio',
-    secondHref: 'https://jakubgranos.github.io/JG-portfolio/',
+    CodeHref: 'https://github.com/jakubgranos/JakubGranos-portfolio',
+    LiveHref: 'https://jakubgranos.github.io/JakubGranos-portfolio',
     stackText: 'Nunjucks'
   }, 
   {
     src: 'work-3.PNG', 
     alt: 'shapeup',
-    firstHref: 'https://gitlab.com/jakubgranos/shapeup',
-    secondHref: 'https://eager-archimedes-882072.netlify.app/',
+    CodeHref: 'https://gitlab.com/jakubgranos/shapeup',
+    LiveHref: 'https://eager-archimedes-882072.netlify.app/',
     stackText: 'PSD to HTML + Nunjucks'
   },
   {
     src: 'work-4.PNG', 
     alt: 'clemo',
-    firstHref: 'https://github.com/jakubgranos/Clemo-Wordpress',
-    secondHref: 'https://jakubgranosclemo.000webhostapp.com/',
+    CodeHref: 'https://github.com/jakubgranos/Clemo-Wordpress',
+    LiveHref: 'https://jakubgranosclemo.000webhostapp.com/',
     stackText: 'Wordpress + PSD to HTML'
   },
   {
     src: 'work-5.PNG', 
     alt: 'LiveChat',
-    firstHref: 'https://github.com/jakubgranos/LiveChat',
-    secondHref: 'https://live-chat-5f865.web.app/',
+    CodeHref: 'https://github.com/jakubgranos/LiveChat',
+    LiveHref: 'https://live-chat-5f865.web.app/',
     stackText: 'Vue.js + Firebase'
   },
   {
     src: 'work-6.PNG', 
     alt: 'Dingo',
-    firstHref: 'https://github.com/jakubgranos/Dingo',
-    secondHref: 'https://dingo-2020.000webhostapp.com/',
+    CodeHref: 'https://github.com/jakubgranos/Dingo',
+    LiveHref: 'https://dingo-2020.000webhostapp.com/',
     stackText: 'Wordpress + PSD to HTML'
   },
   {
     src: 'work-7.PNG', 
     alt: 'Animal shelter',
-    firstHref: 'https://github.com/jakubgranos/Animal-shelter',
-    secondHref: 'https://jakubgranos.github.io/Animal-shelter/',
+    CodeHref: 'https://github.com/jakubgranos/Animal-shelter',
+    LiveHref: 'https://jakubgranos.github.io/Animal-shelter/',
     stackText: 'PSD to HTML'
   },
   {
     src: 'work-8.PNG', 
     alt: 'NeedHosting',
-    firstHref: 'https://github.com/jakubgranos/NeedHosting',
-    secondHref: 'https://needhosting.netlify.app/',
+    CodeHref: 'https://github.com/jakubgranos/NeedHosting',
+    LiveHref: 'https://needhosting.netlify.app/',
     stackText: 'PSD to HTML'
   }, 
   {
     src: 'work-9.PNG', 
     alt: 'Kompo-pręt',
-    firstHref: 'https://github.com/jakubgranos/kompo-pret',
-    secondHref: 'https://jakubgranos.github.io/kompo-pret/',
+    CodeHref: 'https://github.com/jakubgranos/kompo-pret',
+    LiveHref: 'https://jakubgranos.github.io/kompo-pret/',
     stackText: 'Client project - Front End'
   },
   {
     src: 'work-10.PNG', 
     alt: 'Pillow',
-    firstHref: 'https://github.com/jakubgranos/Pillow',
-    secondHref: 'https://jakubgranos.github.io/Pillow/',
+    CodeHref: 'https://github.com/jakubgranos/Pillow',
+    LiveHref: 'https://jakubgranos.github.io/Pillow/',
     stackText: 'PSD to HTML'
   },   
   {
     src: 'work-11.PNG', 
     alt: 'National park',
-    firstHref: 'https://github.com/jakubgranos/National-Park',
-    secondHref: 'https://national-park-project.netlify.app/',
+    CodeHref: 'https://github.com/jakubgranos/National-Park',
+    LiveHref: 'https://national-park-project.netlify.app/',
     stackText: 'PSD to HTML + Nunjucks'
   }, 
   {
     src: 'work-12.PNG', 
     alt: 'DigitalCrafters',
-    firstHref: 'https://github.com/jakubgranos/DigitalCrafters',
-    secondHref: 'https://jakubgranos.github.io/DigitalCrafters/',
+    CodeHref: 'https://github.com/jakubgranos/DigitalCrafters',
+    LiveHref: 'https://jakubgranos.github.io/DigitalCrafters/',
     stackText: 'PSD TO HTML'
   },
   {
     src: 'work-13.PNG', 
     alt: 'DigitalCrafters',
-    firstHref: 'https://github.com/jakubgranos/Startuply',
-    secondHref: 'https://jakubgranos.github.io/Startuply/',
+    CodeHref: 'https://github.com/jakubgranos/Startuply',
+    LiveHref: 'https://jakubgranos.github.io/Startuply/',
     stackText: 'PSD to HTML'
   }                     
 ] %}
@@ -96,8 +96,8 @@
   <figure class="works-box">
     <img src="{{ imageSrc( item.src ) }}" alt="{{ item.alt }}">
     <div class="works-box-text">
-      <a href="{{ item.firstHref }}" target="_blank" >Code <i class="fab fa-github"></i></a>
-      <a href="{{ item.secondHref }}" target="_blank" >Live <i class="fas fa-globe-europe"></i></a>
+      <a href="{{ item.CodeHref }}" target="_blank" >Code <i class="fab fa-github"></i></a>
+      <a href="{{ item.LiveHref }}" target="_blank" >Live <i class="fas fa-globe-europe"></i></a>
       <p>{{ item.stackText }}</p>
     </div>
   </figure>
