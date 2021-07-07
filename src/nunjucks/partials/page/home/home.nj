@@ -12,7 +12,7 @@
      <span class="hvr-wobble-top">Wordpress /</span>
       <span class="hvr-wobble-top">Freelancer</span>
     </p>
-    <a href="#" class="content-text-button hvr-wobble-top">Hire</a>
+    <a href="contact.html" class="content-text-button hvr-wobble-top">Hire</a>
   </div>
   <img src="{{ imageSrc('prof-layer-1.png') }}" alt="jakub Granos" class="content-img content-img-layer-1" data-attribute="content-img-layer-1">
   <img src="{{ imageSrc('prof-layer-2.png') }}" alt="jakub Granos" class="content-img content-img-layer-2" data-attribute="content-img-layer-2">

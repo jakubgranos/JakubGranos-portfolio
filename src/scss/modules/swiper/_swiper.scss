@@ -4,8 +4,12 @@
     display: flex;
     height: 600px;
     align-content: center;
+
+    @include media('<lg') {
+      height: auto;
+    }
   }
-  
+
   &-slide {
     display: flex;
     align-content: center;
